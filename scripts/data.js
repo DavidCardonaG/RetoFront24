@@ -7,16 +7,19 @@ const getCalzado = async (url) =>{
     const resp = await fetch(url);
     const data = await resp.json();
     data.forEach(calzado => {
-        const {imagen,nombre,precio} = calzado;
+        const {imagen,nombre,caracteristicas,talla,marca,precio} = calzado;
         muestraCalzado.innerHTML += `
-        <div class="col mascotas">             
+        <div class="card-product">             
                 <img src="${imagen}" class="card-img" alt="...">
                 <div class="card-img-overlay">
-                        <h5 class="card-title body2Bold">${nombre}</h5>
+                        <h5 class="card-title ">${nombre}</h5>
+                        <p class="card-text">${caracteristicas}</p>
+                        <p>${talla}</p>
+                        <p>${marca}</p>
                         <p class="card-text body2Regular">${precio}</p>
+                        <button class="btn">COMPRAR</button>
                 </div>
             </div>
-        </a>
     </div>
         `
     });

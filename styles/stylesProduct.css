@@ -1,0 +1,27 @@
+.card-product{
+    margin-top:2rem;
+}
+.card-img{
+    width:500px;
+    height:500px;
+    text-align:center;
+    align-items:center;
+    margin: auto;
+    display: block;
+}
+.card-title{
+    font-size:2rem;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
+.card-text{
+    font-size:1.5rem;
+    color:black;
+} 
+p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
