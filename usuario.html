@@ -18,7 +18,7 @@
     </header>
 <div>
         <nav class="menu">
-            <div class="container-fluid">
+            <div">
                 <a class="nav-link active" aria-current="page" href="index.html" tabindex="-1">
                     <img class="icono-activo-home" src="https://image.flaticon.com/icons/png/512/61/61426.png" alt="" width="24" height="24">Home</a>
                 <a class="nav-link" aria-current="page" href="usuario.html" tabindex="-1">
@@ -26,53 +26,54 @@
                 </a>
             </div>
         </nav>
+        <hr>
     </div> 
 
     <main>
         <div class="div-usuario">
             <div class="row usuario">
-                    <h1 class="Headline1">Crear Perfil</h1>
+                    <h1>Crear Perfil</h1>
                 <div class="col datos">
 
                 </div>
             </div>
             <form id="formulario">
                 <div class="campo">
-                    <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                    <label for="name" >Nombre</label>
+                    <input id="name" name="name"  type="text" placeholder="Ingresa tu nombre">
                 </div>
                 <div class="campo">
-                    <label for="lastName" class="form-label body1Regular label-edit">Apellido</label>
-                    <input id="lastName" name="lastName" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                    <label for="lastName" >Apellido</label>
+                    <input id="lastName" name="lastName"  type="text" placeholder="Ingresa tu apellido">
                 </div>
                 <div class="campo">
-                    <label for="email" class="form-label body1Regular label-edit">Correo</label>
-                    <input id="email" name="email" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+                    <label for="email" >Correo</label>
+                    <input id="email" name="email"  type="text" placeholder="Ingresa tu email">
                 </div>
                 <div class="campo">
-                    <label for="name" class="form-label body1Regular label-edit">Telefono</label>
-                    <input id="name" name="number" class=" type="text" placeholder="">
+                    <label for="name">Telefono</label>
+                    <input id="telefono" name="number"  type="text" placeholder="Ingresa tu telefono">
                 </div>
                 <div class="campo">
-                    <label id="label-edit" for="id" class="form-label body1Regular label-edit">Id</label>
-                    <input id="id" name="id" class="ms-1 edit body1Regular form-control" type="text" placeholder="" readonly>
+                    <label id="label-edit" for="id">Id</label>
+                    <input id="id" name="id"  type="text" placeholder="" readonly>
                 </div>
-                <div class="">
-                    <button id="btnGuardar" type="submit" class="btn btn-secondary buttom guardar-cambios">Guardar</button>
+                <div class="boton">
+                    <button id="btnGuardar" type="submit" class="btn">Guardar</button>
                 </div>
-                <div class="">
-                    <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por correo</button>
+                <div class="boton">
+                    <button id="btnTelefono" type="button" class="btn">Buscar por Télefono</button>
                 </div>
-                <div class="">
-                    <button id="btnEditar" type="button" class="btn btn-secondary buttom guardar-cambios">Editar</button>
+                <div class="boton">
+                    <button id="btnEditar" type="button" class="btn">Editar</button>
                 </div>
-                <div class="">
-                    <button id="btnEliminar" type="button" class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
+                <div class="boton">
+                    <button id="btnEliminar" type="button" class="btn">Eliminar</button>
                 </div>
             </form>
         </div>
     </main>
-    
     <script src="./scripts/usuarios.js"></script>
+    
 </body>
 </html>

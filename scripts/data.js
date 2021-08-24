@@ -9,9 +9,7 @@ const getCalzado = async (url) =>{
     data.forEach(calzado => {
         const {imagen,nombre,precio} = calzado;
         muestraCalzado.innerHTML += `
-        <div class="col mascotas">
-        <a href="#" class="enlace-detalle-mascota">
-            <div class="card bg-dark text-white gradiente">                
+        <div class="col mascotas">             
                 <img src="${imagen}" class="card-img" alt="...">
                 <div class="card-img-overlay">
                         <h5 class="card-title body2Bold">${nombre}</h5>
@@ -25,9 +23,9 @@ const getCalzado = async (url) =>{
 }
 
 btnMujer.addEventListener('click', () => {
-    getCalzado('http://localhost:3000/Caballero');
+    getCalzado('http://localhost:3800/Dama');
 })
 
 btnHombre.addEventListener('click', () => {
-    getCalzado(' http://localhost:3000/Caballero');
+    getCalzado('http://localhost:3000/Caballero');
 })

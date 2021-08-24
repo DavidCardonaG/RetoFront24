@@ -1,11 +1,18 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nombre": "David",
-        "apellido": "Herrera",
-        "correo": "david@gmail.com",
-        "N Célular": "3104027113"
-      }
-    ]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "David",
+      "apellido": "Herrera",
+      "correo": "david@gmail.com",
+      "celular": "3104027113"
+    },
+    {
+      "nombre": "meli",
+      "apellido": "goez",
+      "correo": "davidcardonagarcia67@gmail.com",
+      "celular": "3104027113",
+      "id": 2
+    }
+  ]
+}

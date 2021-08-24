@@ -1,3 +1,43 @@
 html{
     font-family: Nunito;
+    background:rgb(207, 207, 207);
+    color:darkblue;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.campo{
+    background-color:hsl(39, 100%, 80%);
+    text-align: center;
+    padding: 10px;
+    margin-right:100px ;
+    margin-left: 100px;
+}
+
+.boton{
+    text-align: center;
+    padding:5px;
+}
+
+.menu{
+    font-size: 25px;
+    background-color:rgb(241, 178, 62);
+    
+}
+
+.btn{
+    padding:10px;
+    padding-left: 70px;
+    padding-right:70px;
+    border-radius: 15px;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: row;
 }
