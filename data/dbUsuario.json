@@ -1,36 +1,13 @@
 {
   "usuarios": [
     {
-      "id": 1,
-      "nombre": "David",
-      "apellido": "Herrera",
-      "correo": "david@gmail.com",
-      "celular": "3104027113",
-      "producto": "calzado hombre",
-      "imagen": ""
-    },
-    {
-      "nombre": "meli",
-      "apellido": "goez",
+      "nombre": "david",
+      "apellido": "cardona",
       "correo": "davidcardonagarcia67@gmail.com",
       "celular": "3104027113",
-      "id": 2
-    },
-    {
-      "id": 3,
-      "nombre": "mary ale.",
-      "apellido": "galvis",
-      "correo": "marygalvis@gmail.com",
-      "celular": "3198763245"
-    },
-    {
-      "nombre": "andres",
-      "apellido": "sanchez",
-      "correo": "andresanchez@gmail.com",
-      "celular": "3234567890",
       "producto": "calzado hombre",
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_651952-MCO45567787558_042021-F.webp",
-      "id": 4
+      "id": 1
     }
   ]
 }

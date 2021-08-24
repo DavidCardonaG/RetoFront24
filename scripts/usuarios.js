@@ -87,6 +87,7 @@ btnEditar.addEventListener('click', async() => {
 })
 
 btnEliminar.addEventListener('click', async() => {
+    alert('Seguro que quiere borrar los datos');
 
     let idModificar = document.getElementById('id').value;
     let resp = await fetch(`http://localhost:3600/usuarios/${idModificar}`,{
