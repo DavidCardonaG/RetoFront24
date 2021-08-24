@@ -17,7 +17,7 @@ let lastName = document.getElementById('lastName').value;
 let email = document.getElementById('email').value;
 let telefono = document.getElementById('telefono').value;
   
-    let resp0 = await fetch('http://localhost:3600/usuarios',{
+    let resp = await fetch('http://localhost:3600/usuarios',{
         method: 'POST',
         body: JSON.stringify({
             nombre: name,
