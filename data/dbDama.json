@@ -1,0 +1,40 @@
+{
+    "Dama": [
+        {
+            "nombre": "RUN FALCON 2.0 ",
+            "talla": "5/6 AMERICANO",
+            "caracteristicas": "Con estos tenis adidas en tus pies podrás correr en el parque y luego tomar un café con amigos con total comodidad. Su exterior de malla ofrece transpirabilidad que mantiene tus pies frescos de la mañana a la noche. La suela tipo cupsole de caucho brinda la estabilidad necesaria para enfrentarte a todo lo que te depare el día.",
+            "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d34877cddcd34c788439ac3600c3b4aa_9366/Tenis_Run_Falcon_2.0_Blanco_FY9621_01_standard.jpg",
+            "marca": "ADIDAS",
+            "precio": "200.000",
+            "id": 1
+        },
+        {
+            "nombre": "FITBOUNCE",
+            "talla": "6 1/2 AMERICANO",
+            "caracteristicas": "Los mejores tenis para el gimnasio son aquellos que brindan comodidad y amortiguación sin sacrificar estabilidad. Estos tenis de training adidas logran exactamente eso. Presentan un diseño con amortiguación energizada en la mediasuela y un corte de perfil bajo que los hace superestables.",
+            "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/759383524eac444cbd0dab5000149f2e_9366/Tenis_FitBounce_Blanco_EG5624_01_standard.jpg",
+            "marca": "ADIDAS",
+            "precio": "180.000",
+            "id": 2
+        },
+        {
+            "nombre": "NIKE WINFLO 8 ",
+            "talla": "7 AMERICANO",
+            "caracteristicas": "Cuando correr es un hábito diario, necesitas apoyo para igualar tu velocidad. La amortiguación que te encanta, combinada con la tecnología Flywire para un ajuste ceñido y estable.",
+            "imagen": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ba45f501-f531-4074-b4ae-ec5042978337/wio-8-womens-running-shoes-nhbfG4.png",
+            "marca": "NIKE",
+            "precio": "178.000",
+            "id": 3
+        },
+        {
+            "nombre": "BOTINES FRATTINI ",
+            "talla": "8 AMERICANO",
+            "caracteristicas": "Los botines FRATTINI, te brindan una gran comodidad a la hora de caminar, super livianos, con material de alta calidad para que luzcas hermosa como siempre.",
+            "imagen": "https://image.airydress.com/image/webp/airydress/500_500/d0/79/d0796c7d8a4c33985a6288124b1ddc6f.jpg",
+            "marca": "FRATTINI",
+            "precio": "210.000",
+            "id": 4
+        }
+    ]
+}

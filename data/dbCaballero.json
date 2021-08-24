@@ -1,0 +1,40 @@
+{
+    "Caballero": [
+        {
+            "nombre": "Nike Air Force 1 '07  ",
+            "talla": "7/8 AMERICANO",
+            "caracteristicas": "El resplandor sigue vivo en las Nike Air Force 1 '07, las b-ball OG que le dan un giro fresco a lo que mejor sabes: cuero impecable, combinaciones de colores limpias y la cantidad perfecta de destello para hacerte brillar. Este acabado blanco puro y limpio agrega el contraste de la suela de goma para una apariencia fresca y versátil con la cantidad justa de pop.",
+            "imagen": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f66a08b9-211c-43fe-a0cc-d04a732bdc63/air-force-1-07-mens-shoes-L3SMQl.png",
+            "marca": "NIKE",
+            "precio": "300.000",
+            "id": 1
+        },
+        {
+            "nombre": "Nike React Phantom Run Flyknit 2 ",
+            "talla": "8 1/2 AMERICANO",
+            "caracteristicas": "El Nike React Phantom Run Flyknit 2 ofrece versatilidad para el corredor de todos los días. Construido sobre la base de su predecesor, el zapato amplía su diseño sin cordones al agregar un soporte seguro que se siente como si desapareciera en su pie. Más espuma significa mejor amortiguación, manteniéndote cómodo mientras corres.",
+            "imagen": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/de34d983-52f9-40b8-946d-dea252ee67e1/react-phantom-run-flyknit-2-mens-running-shoes-ljcDnm.png",
+            "marca": "NIKE",
+            "precio": "240.000",
+            "id": 2
+        },
+        {
+            "nombre": "DURAMO SL ",
+            "talla": "7/8/9 AMERICANO",
+            "caracteristicas": "Estos tenis de running cómodos y versátiles son perfectos para correr, levantar pesas o jugar un picadito. Presentan una estructura ligera con amortiguación suave. Los refuerzos sin costuras sujetan el pie en los movimientos laterales y cambios de dirección rápidos.",
+            "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9ed453e977a942f9a264ac3200c4958f_9366/Tenis_Duramo_SL_Blanco_FY6683_01_standard.jpg",
+            "marca": "ADIDAS",
+            "precio": "215000",
+            "id": 3
+        },
+        {
+            "nombre": "RUNFALCON ",
+            "talla": "7/8/9 AMERICANO",
+            "caracteristicas": "Acumula kilómetros con estos tenis de running livianos que te ofrecen una excelente comodidad y amortiguación mientras corres en las calles o en el gimnasio. Incorporan un exterior liviano en una mezcla de materiales y un refuerzo en la zona media del pie que garantiza una mayor sujeción.",
+            "imagen": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e2c6d93438254ba8b101ab09018636ba_9366/Tenis_Runfalcon_Gris_EG8602_01_standard.jpg",
+            "marca": "ADIDAS",
+            "precio": "270.000",
+            "id": 4
+        }
+    ]
+}
